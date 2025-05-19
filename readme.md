@@ -1,19 +1,15 @@
 
+[![Latest Stable Version](https://poser.pugx.org/appolous/identitydocuments/v/stable)](https://packagist.org/packages/appolous/laratables)
+[![Total Downloads](https://poser.pugx.org/appolous/identitydocuments/downloads)](https://packagist.org/packages/appolous/laratables)
+[![MIT Licensed](https://poser.pugx.org/appolous/identitydocuments/license)](LICENSE.md)
+[![Buy Me A Coffee](https://img.shields.io/badge/-buy_me_a%C2%A0coffee-gray?logo=buy-me-a-coffee)](https://buymeacoffee.com/appolous)
+
+# Package Status
+As the original package is no longer under active development, we are updating this package just to support the latest version of Laravel. Everything else will remain the same.
+
+Support Laravel 7.x - 12.x
+
 # Laravel Identity Documents
-
-  
-
-[![Latest Version on Packagist][ico-version]][link-packagist]
-[![Total Downloads][ico-downloads]][link-downloads]
-[![StyleCI][ico-styleci]][link-styleci]
-
-  
-
-For general questions and suggestions join gitter:
-
-[![Join the chat at https://gitter.im/werk365/identitydocuments](https://badges.gitter.im/werk365/identitydocuments.svg)](https://gitter.im/werk365/identitydocuments?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
-  
 
 Package that allows you to handle documents like passports and other documents that contain a Machine Readable Zone (MRZ).
 
@@ -22,28 +18,19 @@ This package allows you to process images of documents to find the MRZ, parse th
 > ⚠️ Version 2.x is a complete rewrite of the package with a new MRZ detection algorithm and is not compatible with version 1.x
 
   
-  
 
 ## Installation
 
-  
-
 Via Composer
 
-  
-
 ``` bash
-
 $ composer require werk365/identitydocuments
-
 ```
 
-  
 
 Publish config (optional)
 
 ``` bash
-
 $ php artisan vendor:publish --provider="Werk365\IdentityDocuments\IdentityDocumentsServiceProvider"
 
 ```
