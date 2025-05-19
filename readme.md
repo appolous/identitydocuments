@@ -24,7 +24,7 @@ This package allows you to process images of documents to find the MRZ, parse th
 Via Composer
 
 ``` bash
-$ composer require werk365/identitydocuments
+$ composer require appolous/identitydocuments
 ```
 
 
