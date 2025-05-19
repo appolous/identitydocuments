@@ -1,21 +1,21 @@
 {
-    "name": "werk365/identitydocuments",
+    "name": "appolous/identitydocuments",
     "description": "Package to parse identity documents like passports",
     "license": "GPL-3.0-or-later",
-    "version": "2.0.5",
+    "version": "2.1.0",
     "authors": [
         {
-            "name": "Hergen Dillema",
-            "email": "hergen.dillema@gmail.com",
-            "homepage": "https://365werk.nl"
+            "name": "Appolous   ",
+            "email": "hello@appolous.com",
+            "homepage": "https://www.appolous.com"
         }
     ],
-    "homepage": "https://github.com/werk365/identitydocuments",
+    "homepage": "https://github.com/appolous/identitydocuments",
     "keywords": ["Laravel", "IdentityDocuments", "MRZ", "Passport"],
     "require": {
         "google/cloud-vision": "^1.3",
         "intervention/image": "^2.5",
-        "illuminate/support": "~5|~6|~7|~8|~9"
+        "illuminate/support": "~7|~8|~9|~10|~11|~12"
     },
     "require-dev": {
         "phpunit/phpunit": "^8.0",
